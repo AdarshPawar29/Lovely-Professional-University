@@ -15,7 +15,7 @@
  */
 int main() {
     pid_t p;
-    p = fork;
+    p = fork();
 
     if (p > 0) {
         // Inside P
